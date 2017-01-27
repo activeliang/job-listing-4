@@ -16,3 +16,11 @@
 //= require bootstrap/alert
 //= require bootstrap/dropdown
 //= require_tree .
+
+$(document).ready(function () {
+
+    $(".player").mb_YTPlayer();
+
+});
+
+// 以下是滑动条

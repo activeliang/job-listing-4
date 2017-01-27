@@ -186,3 +186,104 @@
     border-radius: 3px;//btn圆角
     width: 200px;//这里用指定宽度把btn拉得更长
 }
+// 以下是VIDEOPAGE
+.container{
+height:100%;
+    }
+
+.col-md-4{
+ background-color:#D3D7E0;
+ opacity: 0.8;
+margin-top:20px;
+padding: 30px;
+height:300px;
+}
+
+.video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.29);
+padding: 110px 0 32px;
+min-height: 1500px;
+/* Incase of overlay problems just increase the min-height*/
+}
+
+
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+// 以下是footer
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     margin-top: -18px;
+     padding-top: 8px;
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+
+ .col-md-10 {
+   background-color:#D3D7E0;
+   opacity: 0.8;
+   margin: auto;
+  padding: 30px;
+ }
+
+ .container-1 {
+   background-color: #D3D7E0;
+   font-weight: bold;
+   line-height: 121%;
+   opacity: 0.8;
+   margin-bottom:-30px;
+ }
+
+ // 以下是滑动条
+
+
+ 

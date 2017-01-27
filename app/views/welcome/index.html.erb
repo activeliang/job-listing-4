@@ -1,42 +1,97 @@
-<div class="jumbotron">
-  <h1 class="title">18K Offer</h1>
-  <p class="slogan">18K Offer 是一个提供18K薪水工作机会的求职网站。
-  <br>
-  我们希望藉由这个网站，能让大家找到且应征上高薪且优质的工作。
-  <br>
-  凭借自己的努力和天份也会变 Winner
-  </p>
-  <p class="lead"><a class="btn btn-lg btn-danger" href="/jobs">马上应征</a></p>
-</div>
+<!-- Both these should be added to within the <head> of your document-->
+<link href='http://fonts.googleapis.com/css?family=Buenard:700' rel='stylesheet' type='text/css'>
+<script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
 
 
-<section id="company">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=VfqbvmFVI&l=y.jpg" alt="search" class="img-thhumbnail">
-          <div class="caption">
-            <h3>北京朝阳建外SOHU</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=9yBkCQVj7&l=y.jpg" alt="bid" class = "img-thhumbnail">
-          <div class="caption">
-            <h3>info@18koffer.com</h3>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4 ">
-        <div class="thumbnail">
-          <img src="http://y.photo.qq.com/img?s=bAQJ8dfF4&l=y.jpg" alt="heart" class = "img-thhumbnail">
-          <div class="caption">
-            <h3>010-12344321</h3>
-          </div>
-        </div>
+<!--Video Section-->
+<section class="content-section video-section">
+<div class="pattern-overlay">
+
+<div class="container ">
+<!-- this is the background video, inside container div, and height set to 100% in CSS  -->
+    <a  id="bgndVideo" class="player"
+    data-property="{videoURL:'https://youtu.be/2FhaB5XAp1s....lsadjkfoi',
+    containment:'body',
+    quality:'hd720',
+    autoPlay:true,
+    mute:true,
+    startAt: 6,
+
+    opacity: 1}">bg</a>
+
+<!--more VIDO  options at https://github.com/pupunzi/jquery.mb.YTPlayer/wiki -->
+
+<div class="row">
+        <div class="col-lg-12">
+
+        <h1> Jewelry Master Offer </h1>
+        <h3> 首饰界大牛亲授，快速培养一流的珠宝人才！
+          <%= link_to("立即加入","#",:class => "btn btn-default", :style => "background-color:#D3D7E0;opacity: 0.8;font-weight: bold;letter-spacing: 3px;font-size: 20px;padding: 8px 16px;border-radius: 3px;width: 200px; ")%> </h3>
+
+        <!-- Begin Mr. M.'s Rows -->
+
+<!-- 这是滑动条 -->
+
+
+
+<div class="row">
+
+
+            <div class="col-md-4">
+              <h2>Mr. M. Full Screen Video</h2>
+              <p>NOTE: <a href="http://bootsnipp.com/iframe/Ovmd" target="_blank">BEST to view Full Screen</a>. Non mi porta gravida at egetat eget  metus. Fusce dapibus, tellus ac at eget cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta.. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+
+
+ <div id="carouselButtons">
+      <button id="playButton" type="button" class="btn btn-default btn-xs" onclick="$('#bgndVideo').playYTP()">
+
+          <span class="glyphicon glyphicon-play" ></span>
+       </button>
+      <button id="pauseButton" type="button" class="btn btn-default btn-xs" onclick="$('#bgndVideo').pauseYTP()">
+          <span class="glyphicon glyphicon-pause"></span>
+      </button>
+  </div>
+
+
+              <button onclick="$('#bgndVideo').toggleVolume()">unmute/unmute</button>
+
+
+              <button onclick="$('#bgndVideo').pauseYTP()">pause</button><button onclick="$('#bgndVideo').playYTP()">play</button>
+
+
+            </div><!--/span-->
+
+
+
+            <div class="col-md-4">
+              <h2>Heading B</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!--/span-->
+
+
+
+            <div class="col-md-4">
+              <h2>Heading C</h2>
+              <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+              <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+            </div><!--/span-->
+
+
+
+          </div><!--/row-->
+
+
+  <!-- END Mr. M.'s Rows -->
+
+
+
+
+
+	   </div>
       </div>
     </div>
   </div>
 </section>
+<!--Video Section Ends Here-->
