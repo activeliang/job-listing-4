@@ -197,6 +197,7 @@ height:100%;
 margin-top:20px;
 padding: 30px;
 height:300px;
+width: 500px;
 }
 
 .video-section .pattern-overlay {
@@ -210,6 +211,7 @@ min-height: 1500px;
 .video-section h1, .video-section h3{
 text-align:center;
 color:#fff;
+padding-top:13px;
 }
 
 .video-section h1{
@@ -227,7 +229,7 @@ font-size: 25px;
 font-weight:lighter;
 margin: 0px auto 15px;
 }
-.video-section .buttonBar{display:none;}
+// .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
 
 // 以下是footer
@@ -284,6 +286,3 @@ margin: 0px auto 15px;
  }
 
  // 以下是滑动条
-
-
- 
