@@ -14,4 +14,8 @@ Rails.application.routes.draw do
     resources :resumes
     end
   end
+
+      resources :jmcampresumes
+
+
 end

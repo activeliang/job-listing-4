@@ -196,13 +196,13 @@ height:100%;
  opacity: 0.8;
 margin-top:20px;
 padding: 30px;
-height:300px;
+height:200px;
 }
 
 .video-section .pattern-overlay {
 background-color: rgba(71, 71, 71, 0.29);
 padding: 110px 0 32px;
-min-height: 1500px;
+min-height: 1000px;
 /* Incase of overlay problems just increase the min-height*/
 }
 
@@ -221,9 +221,11 @@ margin: 40px auto 0px;
 text-shadow: 1px 1px 1px #000;
 -webkit-text-shadow: 1px 1px 1px #000;
 -moz-text-shadow: 1px 1px 1px #000;
+padding-top: 200px;
 }
 .video-section h3{
-font-size: 25px;
+font-size: 25x;
+
 font-weight:lighter;
 margin: 0px auto 15px;
 }
@@ -285,5 +287,8 @@ margin: 0px auto 15px;
 
  // 以下是滑动条
 
-
- 
+ .row p{
+   font-family: '微软雅黑';
+   font-weight: lighter;
+   font-size: 16px;
+ }
